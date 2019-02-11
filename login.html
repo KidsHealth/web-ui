@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        
+        <meta name="author" content="KidsHealthCo" />
+        <title>Login - KidsHealth</title>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="style/login-style.css" rel="stylesheet">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/script-login.js"></script>
+        
+        <link rel="shortcut icon" href="img/icono.jpeg">
+    </head>
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <div class="fadeIn first">
+                    <img src="img/logo.png" id="icon" alt="KidsHealth" />
+                </div>
+                <div class="warning-container" id="warning-inicio"></div>
+
+                <!-- Login Form -->
+                <form id="login" action="javascript:void(0);">
+                    <input type="text" id="usuario" class="fadeIn second" name="usuario" placeholder="Nombre de Usuario">
+                    <input type="password" id="password" class="fadeIn third" name="password" placeholder="Contraseña">
+                    <input type="submit" class="fadeIn fourth" value="iniciar sesión" onclick="inicioSesion()">
+                </form>
+                <div id="formFooter">
+                    <a class="underlineHover" href="mailto:support@kidshealth.com?Subject=Incidencia%20de%20inicio%20de%20sesi&oacute;n" target="_top">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
